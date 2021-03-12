@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<!-- DARK
+#2b3035
+rgba(34,37,42,1)
+
+LIGHT
+#a7b0b8
+rgba(167,176,184,1) -->
+
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="Author: Dheeraj Kumar Pant, Machine Learning Enthusiast, Data Science Enthusiast Portfolio, Dheeraj Kumar Pant Profile, Dheeraj Kumar Pant CV">
+  <meta name="keywords" content="Artificial Intelligence, Data Scientist, Machine Learning, Computer Vision, Software Developer, Software Engineer">
+  <meta name="author" content="Dheeraj Kumar Pant">
+  <meta property="og:image" content="Profile.png"/>
+  <title>BLOG</title>
+  <link rel="icon" href="favicon.ico">
+  <script async src="https://use.fontawesome.com/releases/v5.15.1/js/all.js" crossorigin="anonymous"></script>
+
+
+  <style>
+    /* cyrillic-ext */
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WRhyzbi.woff2) format('woff2');
+      unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+    }
+
+    /* cyrillic */
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459W1hyzbi.woff2) format('woff2');
+      unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+    }
+
+    /* vietnamese */
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459WZhyzbi.woff2) format('woff2');
+      unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+    }
+
+    /* latin-ext */
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wdhyzbi.woff2) format('woff2');
+      unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+    }
+
+    /* latin */
+    @font-face {
+      font-family: 'Montserrat';
+      font-style: normal;
+      font-weight: 400;
+      font-display: swap;
+      src: url(https://fonts.gstatic.com/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2) format('woff2');
+      unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+    }
+
+    html {
+      font-family: 'Montserrat', sans-serif;
+      line-height: 1.15;
+      -webkit-text-size-adjust: 100%;
+      -webkit-tap-highlight-color: transparent
+    }
+
+    header,
+    nav,
+    section {
+      display: block;
+      font-family: 'Montserrat', sans-serif;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Montserrat', sans-serif;
+      font-size: 1rem;
+      font-weight: 400;
+      line-height: 1.5;
+      text-align: left;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4 {
+      margin-top: 0;
+      font-family: 'Montserrat', sans-serif;
+      margin-bottom: .5rem
+    }
+
+    #mainNav {
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+      background-color: rgba(34, 38, 42, 1);
+      transition: background-color 0.2s ease;
+    }
+
+    #mainNav .navbar-brand {
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      color: rgb(222, 225, 228);
+    }
+
+    #mainNav .navbar-nav .nav-item .nav-link {
+      color: rgba(167, 176, 184, 0.4);
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 700;
+      font-size: 0.9rem;
+      padding: 0.75rem 0;
+    }
+  </style>
+
+  <link href="styles.css" rel="stylesheet">
+</head>
+
+<body id="home">
+  <!-- Navigation-->
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top py-3" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#home" onMouseOver="this.style.color='#dee1e4'" onMouseOut="this.style.color='#697581'" style="color:#697581;" aria-label="home section in navigation bar">
+        <i class="fas fa-home"></i>
+      </a>
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation"><span
+          class="navbar-toggler-icon"></span></button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto my-2 my-lg-0">
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#clean" onMouseOver="this.style.color='#dee1e4'" onMouseOut="this.style.color='#697581'" style="color:#697581;" aria-label="skills section in navigation bar">
+              Data Cleaning
+            </a>
+          </li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#eda" onMouseOver="this.style.color='#dee1e4'" onMouseOut="this.style.color='#697581'" style="color:#697581;" aria-label="projects section in navigation bar">
+              EDA
+            </a>
+          </li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#modeling" onMouseOver="this.style.color='#dee1e4'" onMouseOut="this.style.color='#697581'" style="color:#697581;" aria-label="projects section in navigation bar">
+              Prediction
+          </a>
+        </li>
+          <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#conclusion" onMouseOver="this.style.color='#dee1e4'" onMouseOut="this.style.color='#697581'" style="color:#697581;" aria-label="projects section in navigation bar">
+              Conclusion
+          </a>
+        </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <header class="page-section" style="background-color: white;">
+    <div class="container">
+      <h1>Starbucks Capstone Challenge</h1>
+      <h3><i>Capstone project of udacity data-scientist nanodegree</i></h3>
+      <br>
+      <h1>Introduction</h1>
+      <p>
+        Starbucks Corporation is an American multinational chain of coffeehouses and roastery reserves headquartered in Seattle, Washington. As the world's largest coffeehouse chain, Starbucks is seen to be the main representation of the United States' second wave of coffee culture. As of early 2020, the company operates over 30,000 locations worldwide in more than 70 countries. Starbucks locations serve hot and cold drinks, whole-bean coffee, microground instant coffee known as VIA, espresso, caffe latte, full- and loose-leaf teas including Teavana tea products, Evolution Fresh juices, Frappuccino beverages, La Boulange pastries, and snacks including items such as chips and crackers; some offerings (including their annual fall launch of the Pumpkin Spice Latte) are seasonal or specific to the locality of the store.(TAKEN FROM : <a href="https://en.wikipedia.org/wiki/Starbucks" style="color: blue;">WIKIPEDIA</a>)
+      </p>
+
+      <h3>Let's discuss these</h3>
+      <p>
+        1.&nbsp;How an offer works in starbucks in general? What are the top offers provided by them?<br>
+        2.&nbsp;What is change in market of starbucks when some offer is there?<br>
+        3.&nbsp;How user action parameters(say viewed, offer recieved, transaction done, cancelled, completed) are related to demographic attributes or other attributes that company floats?<br>
+      </p>
+
+      <h3>Motivation</h3>
+      <p>
+        I am very curious about how discounts/offers(e.g. buy 1 get1, family pack, veg combo etc) works, how company decides what to select, which parameters are more important, when should these offers be rolled out, for how many days offer should be there. Since i also prefer offers my self and ocassionally buy things from such places during discount month or if there is an offer. So more or less i find it interesting to analyse it and see how these thing works.
+      </p>
+
+      <h3>Strategy to solve problem</h3>
+      <p>
+        So here i will be giving picture about how i will progress in the project as it will give you an idea on what you can expect to read further in your article. I have broken problems majorly in 4 stages. In first stage i am just exploring data using pandas dataframe functions, like df.head(), df.info(), df.describe(), here i will be just looking for any scope of preprocessing the dataset. In second stage i will be doing data cleaning where i will be handling multivalued columns by splitting them, handling large numbers, handling NaNs and typecasting data values to suitable form. After this i will make sure that data is ready for exploratory data analysis. In third stage i will be visualizing the dataset and will be commenting on the plot as per my understanding. For this i will be using matplotlib and seaborn library, and using barplots, histograms, pie-plots for better understanding. Finally for prediction purpose i will be using four machine learning models and evaluate the problem according to each of them. My method for evaluation would be F score and confusion matrix mainly.
+      </p>
+    </div>
+  </header>
+
+  
+
+  <section class="page-section" id="clean" style="background-color: white;">
+    <div class="container">
+      <div>
+        <h3>Dataset Structure</h3><br>
+        <p>
+          The data provided consists of 3 datasets:<br><br>
+
+          1.&nbsp;Offer portfolio(contains attributes of each offer), columns are given below<br>
+          <ul>
+            <li>id (string) - offer id</li>
+            <li>offer_type (string) - type of offer ie BOGO, discount, informational</li>
+            <li>difficulty (int) - minimum required spend to complete an offer</li>
+            <li>reward (int) - reward given for completing an offer</li>
+            <li>duration (int)</li>
+            <li>channels (list of strings)</li>
+          </ul>
+          2.&nbsp;Demographic data(for each customer), columns of dataset given below<br>
+          <ul>
+            <li>age (int) - age of the customer</li>
+            <li>became_member_on (int) - date when customer created an app account</li>
+            <li>gender (str) - gender of the customer (note some entries contain 'O' for other rather than M or F)</li>
+            <li>id (str) - customer id</li>
+            <li>income (float) - customer's income</li>
+          </ul>
+          3.&nbsp;Transactional records, columns of dataset provided below<br>
+          <ul>
+            <li>event (str) - record description (ie transaction, offer received, offer viewed, etc.)</li>
+            <li>person (str) - customer id</li>
+            <li>time (int) - time in hours. The data begins at time t=0</li>
+            <li>value - (dict of strings) - either an offer id or transaction amount depending on the record</li>
+          </ul>
+        </p>
+        <h3>Things to be fixed in dataset</h3><br>
+        <p>
+          The major things to be fixed were :<br><br>
+          1.&nbsp;Channels column in portflio datset is bit weired need to manage it during cleaning phase. There might also be requirement of standardazation/normalization/scaling of data also. <br>
+          2.&nbsp;Something wrong with ages, as we are having a considerable portion of ages above 118 and we need to fix them.<br>
+          3.&nbsp;Handling NaN, and Very large values.<br><br>
+          There are some more problems but for simplicity i had mentioned these three, for more information you can always check .ipynb file.
+        </p>
+        <h3>Data cleaning steps</h3><br>
+        <p>
+          The major steps were :<br><br>
+          1.&nbsp;Convert the column 'Channels' into 4 different channel on the basis of different types of channel. <br>
+          2.&nbsp; Age values above 118 is set as NaN, so that it would be fixed together.<br>
+          3.&nbsp;Since frequency of NaN values are very high, so dopping them is not a good choice, so i did not consider dropping them as they are highly aligned(highly overlapping), further i when it is required i will take decision at that point(like replacing it with mean, median or mode of whole column, but this is highly specific to analysis)<br>
+          4.&nbsp;Merging and storing final dataset.<br><br>
+          Some more cleaning steps also being done "here and there" like changing datatype, renaming column, mapping variable values, dropping columns.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section" id="eda" style="background-color: white;">
+
+    <div class="container">
+      <div>
+        <h3>Exploratory Data Analysis</h3>
+        <br>
+        <p>
+          In this section we will see some statistics as well as plots about the dataset.
+          <h4>Portfolio Dataset : This dataset has no null values</h4>
+          <i>This is how portfolio dataset looks like:</i><br><br>
+          <img src="s1.png" alt="Bar Plot" class="center"><br><br><br>
+          <i>Let's see the datatype of each columns values:</i><br><br>
+          <img src="s2.png" alt="Bar Plot" class="center"><br><br><br>
+          <i>Below shows the statistics :</i><br><br>
+          <img src="s3.png" alt="Bar Plot" class="center"><br><br><br>
+
+          <h4>Profile Dataset : This dataset contains around 27% null values</h4>
+          <i>This is how profile dataset looks like:</i><br><br>
+          <img src="s4.png" alt="Bar Plot" class="center"><br><br><br>
+          <i>Let's see the datatype of each columns values:</i><br><br>
+          <img src="s5.png" alt="Bar Plot" class="center"><br><br><br>
+          <i>Below shows the statistics :</i><br><br>
+          <img src="s6.png" alt="Bar Plot" class="center"><br><br><br>
+
+          <h4>Transcript Dataset : This dataset contains around 7% null values</h4>
+          <i>This is how transcript dataset looks like:</i><br><br>
+          <img src="s7.png" alt="Bar Plot" class="center"><br><br><br>
+          <i>Let's see the datatype of each columns values:</i><br><br>
+          <img src="s8.png" alt="Bar Plot" class="center"><br><br><br>
+          <i>Below shows the statistics :</i><br><br>
+          <img src="s9.png" alt="Bar Plot" class="center"><br><br><br>
+        </p>
+        <br><p>   
+          We can see the histogran of ages, see the values after 100, it's surprising.
+        </p>
+         <img src="1.png" alt="Bar Plot" class="center"><br>
+         <br><br><br><br><br><p>   
+          After having a quick look over the plot we have an idea about data graphically. Most of the variables are in discrete form(those who are having spikes at some points), while three variables have proper distribution. Here i cant say that any distribution is left skewed or right skewed at this point as it is very abstract to say that, let's discuss as we go further.
+        </p>
+         <img src="2.png" alt="Bar Plot" class="center"><br>
+         <br><br><br><br><br><p>   
+          Below is the correlation heatmap among variables, we can see covariances corresponding to event_id, offer_completed, offer_viewed, offer_received is very high, so these variables might be important while predection, we can get general idea about how intensely one covariate depends on other.
+        </p>
+         <img src="3.png" alt="Bar Plot" class="center"><br>
+         <br><br><br><br><br><p>   
+          Below bar-plot showing gender distribution. gender might be factor for giving adds and offers. We can see that ratio between male and female is approximately 3:2
+        </p>
+         <img src="4.png" alt="Bar Plot" class="center"><br>
+         <br><br><br><br><br><p>   
+          It can be clearly seen in offer_received plot that dicount offer is most popular, bogo offer is very close to it. Informational is least popular by starbucks
+        </p>
+         <img src="5.png" alt="Bar Plot" class="center"><br>
+         <br><br><br><br><br><p>   
+          It can be clearly seen that when offer viewed is to be concerned then bogo offer is most popular, discount offer is second. Informational is least popular by starbucks
+        </p>
+         <img src="6.png" alt="Bar Plot" class="center"><br>
+         <br><br><br><br><br><p>   
+          It can be clearly seen that when offer completed is to be concerned then discount offer is most popular, bogo offer is very close. Informational gets zero marks here.
+        </p>
+         <img src="7.png" alt="Bar Plot" class="center"><br>
+         <br><br><br><br><br><p>   
+          We can see easily that every offer has equal chances of recieving, as the graph is completely uniform(discretely)
+        </p>
+         <img src="8.png" alt="Bar Plot" class="center"><br>
+         <br><br><br><br><br><p>   
+          Below is the plot of offer viewed, we can clearly see that it is not uniform(kind of midely right skewed), so different offer_id have different probability of being viewed, this kinda makes sense because this might depends on user interest, interesting offers attracts more customers(and users view only those).
+        </p>
+         <img src="9.png" alt="Bar Plot" class="center"><br>
+         <br><br><br><br><br><p>   
+          Below is the plot of offer completed, we can clearly see that it is not uniform(overall decreasing height) just as previous one, so different offer_id have different probability of being completely, this kinda makes sense as this is somehow related to offer_viewed and i was expected similar behaviour, because this might depends on user interest, interesting offers attracts more customers(and users view and buy only those).
+        </p>
+         <img src="10.png" alt="Bar Plot" class="center"><br>
+         <br><br><br><br><br><p>   
+          Bogo offers as we have already seen, has great response among users, so below plot kind of confirms that, further the graph is little bit right skewed, aroung 4500-4800 users are interested in this at some point.
+        </p>
+         <img src="11.png" alt="Bar Plot" class="center"><br>
+         <br><br><br><br><br><p>   
+          Discount offers as we have already seen, has great response among users, so this plot kind of confirms that, further the graph is little bit right skewed, remeber that area is less than bogo offers which is completely inclined with our previous analysis results, further around 4500-4800 users are interested in this at some point.
+        </p>
+         <img src="12.png" alt="Bar Plot" class="center"><br><br><br>
+         <h4>Findings(Analysis)</h4><p>Going through all the above plots and discussions let's bring them together:<br></p>
+        <ol>
+        <li>Many customers has income between 40k and 80k. Attracting these customers is vey crucial as they can be great market for starbucks, while we can try giving offers personally to customers under 40k income.</li>
+        <li>Most people are within age group of [40-70], so we cannot sell only fast food to them, we need to be more careful about rolling out combo packages. One idea is we can include soup, vegetable salad etc like stuffs with traditional starbucks food to attract them.</li>
+        <li>Gender might be factor for giving adds and offers. We can see that ratio between male and female is approximately 3:2, e.g. let's say female like deserts so we can do that for them.</li>
+        <li>Bogo offers are most recieved followed by dicount offers, in general too Bogo offers are very popular.</li>
+        <li>Dicount offer are most viewed followed by bogo offer, this makes sense naturally as attrative discounts indeed catch more people.</li>
+        <li>Different offer_id have different probability of being viewed, this kinda makes sense because this might depends on user interest, interesting offers attracts more customers(and users view only those).</li>
+        </ol>
+        <p>So different offer were given to different section of people depending upon locations, gender etc, and change in market hugely depend upon it. Offer recieved for some region might be different from others similarly offer viewed depends upon this and various other factors. The outcome of these is certainly transaction done/completed or cancelled.</p>
+      </div>
+    </div>
+  </section>
+  <!-- others-->
+  <section class="page-section" id="modeling" style="background-color: white;">
+    <div class="container">
+      <div>
+        <h1>Modeling and Prediction</h1><br>
+        <p>
+          In this section i will be sharing about the ML models which i tried, before that let's first see preprocessing of features.
+          <i>This is how i dealt with infinte values:</i><br>
+          <img src="s10.png" alt="Bar Plot" class="center"><br><br><br>
+          <i>Results after dealing:</i><br>
+          <img src="s11.png" alt="Bar Plot" class="center"><br><br><br>
+        </p><br>
+        <h3>Training Phase</h3><br>
+        <p>
+          <i>This is how i splitted the dataset:</i><br>
+          <img src="s12.png" alt="Bar Plot" class="center"><br><br><br>
+          Below are the ML models which i tried:
+          <h5>MODEL I : Neural Net with one Layer</h5>
+          <i>This is the architecture of my model:</i><br>
+          <img src="s13.png" alt="Bar Plot" class="center"><br><br><br>
+          <i>This is statistics:</i><br>
+          <img src="s14.png" alt="Bar Plot" class="center"><br><br><br>
+          We can see that validation score is around 63-64% (it might change when you run), let's try to add more layers and see whether score increases or not.<br><br>
+
+          <h5>MODEL II: Neural Nets with four layers</h5>
+          <i>This is the architecture of my model:</i><br>
+          <img src="s15.png" alt="Bar Plot" class="center"><br><br><br>
+          <i>This is statistics:</i><br>
+          <img src="s16.png" alt="Bar Plot" class="center"><br><br><br>
+          Adding more layers reduces the validation score, i think this is due to the fact that, we added dropout here which act as regularizer so model might underfits. Also since adding more layers leads to more parameters so in order to train them, we might not be able to provide adequate quantity of training dataset.<br><br>
+
+          <h5>MODEL III: Random Forest Classifier</h5>
+          <i>This is the architecture of my model:</i><br>
+          <img src="s17.png" alt="Bar Plot" class="center"><br><br><br>
+          <i>This is statistics:</i><br>
+          <img src="s18.png" alt="Bar Plot" class="center"><br><br><br>
+          The F1-score is quite good compared to above.<br><br>
+
+          <h5>MODEL IV: Decision Tree Classifier</h5>
+          <i>This is the architecture of my model:</i><br>
+          <img src="s19.png" alt="Bar Plot" class="center"><br><br><br>
+          <i>This is statistics:</i><br>
+          <img src="s20.png" alt="Bar Plot" class="center"><br><br><br>
+          Due to its best performance i chose model 4.<br><br>
+        </p>
+        <h3>How i choose Hyperparameters?</h3><br>
+        <p>
+          <i>I used exhaustive gid search over above models(random trees), also particularly in case of random forest and decision tree i trained model on subset and try looping over random_state variable and got the below statistics for best prediction:</i><br>
+          <b>max_depth: 8, &nbsp;max_features: 'auto',&nbsp; min_samples_leaf: 2,&nbsp; min_samples_split: 2,&nbsp; n_estimators: 2,&nbsp;random_state: 42</b><br><br><br>
+        </p>
+        <h3>About Evalution Criteria</h3><br>
+        <p>
+          I am using F1-score most of the time for evaluation, as it also takes into consideration the distribution, accuracy blindly calculate the score and do not take into consideration the internal architecture of dataset. To explain this i am taking an example consider a binary classification task where data set has 100 samples with 90 negative sample and 10 positive sample. <br>
+          <b>BAD CLASSIFIER</b> : Suppose i made one line classifier who predicts only negative samples, i.e., even if we have positive dataset it will be predicted as negative. See how bad this classifier is, but it's accuracy is 90%, while its F score is 0.<br><br>
+
+          <b>How F-Score is Calculated:</b><br>
+          To calculate F1-score we can use confusion matrix(although direct function is still there). Below is confusion matrix:<br>
+          <img src="s21.png" alt="Bar Plot" class="center"><br><br><br>
+          <b>F1-score is just geometric mean of Precision and Recall</b>
+        </p>
+        <h3>FINDINGS(Analysis)</h3><br>
+        <p>
+          So in this section we trained four different models and we can say overall that these models had incresing complexity, but it turns out that simplest model outperforms all others in terms of F1-score.<br>
+          Further this might happens because our data-set after cleaning became close to ideal, that's why data-preprocessing is crucial step. Also if we will use more complex model then we might also fullfill the requirement of data, to train those parameters. Further regularization also plays major role in F1-score, here since the dataset and covariates were simple and complementing each other so excessive use of regularizer might produce negative effect: e.g., model 2 has lower F1-score than model1 since we added dropouts, similarly model 3 has lower F1-score than model 4 as random forests are ensemble of decision tree with inherent regularization effect inside them.<br><br>
+          <ul>
+            <li>We concluded that when we get enough data like transaction', 'offer_id', 'amount', 'gender', 'age', 'income' we can easly target audience with respectable F1-score, that's how starbuck is working i guess.</li>
+            <li>There may be many improvements in terms of predictions, potential improvements which i could think of are using higher order features, using features has combination of others, selecting different model pipeline(maybe using gridsearch), doing something different with respect to data-cleaning, adding more features or deleting some.</li>
+          </ul>
+          <br>
+          Summary of performance of each model is given below:<br><br>
+          <table>
+            <tr>
+              <th>Model&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+              <th>Training F1-score&nbsp;&nbsp;</th>
+              <th>Test F1-score&nbsp;&nbsp;</th>
+            </tr>
+            <tr>
+              <td>Single layer NN&nbsp;&nbsp;</td>
+              <td>0.6667</td>
+              <td>0.6473</td>
+            </tr>
+            <tr>
+              <td>Four layer NN&nbsp;&nbsp;</td>
+              <td>0.4864</td>
+              <td>0.4902</td>
+            </tr>
+            <tr>
+              <td>Random Forest&nbsp;&nbsp;</td>
+              <td>0.792</td>
+              <td>0.78</td>
+            </tr>
+            <tr>
+              <td>Decision Tree&nbsp;&nbsp;</td>
+              <td>0.8202</td>
+              <td>0.81</td>
+            </tr>
+          </table>
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section class="page-section" id="conclusion" style="background-color: white;">
+    <div class="container">
+      <div>
+        <h1>Conclusion</h1><br>
+        <p>
+          I firstly like to thanks udacity team for this awesome project, also i would like to thanks the grader who will be grading this project. I found some part of project challenging specially data cleaning part and model training part. The transcript dataset was really challenging and my most of the time consumes in cleaning that bit, but overall the experience was really nice.
+        </p><br>
+        <h3>BRIEF OVERVIEW(REFLECTIONS)</h3><br>
+        <p>
+          The quandary that I opted to solve was to build a model that checks whether a customer will respond to an offer. My strategy for solving this problem has overall four steps(talking abstarct). Firstly, I coalesced offer portfolio, customer profile, and transaction data. Secondly, I had done feature selection and data cleaning related to that(feature selection), i have used correlation matrix too. Thirdly, I assessed the precision and F1-score of a problem model that postulates all offers. Finally, I compared the performance of neural nets, random forest, and decision models. This analysis suggests that an decision tree model has the best training data precision and F1-score(around 0.81). I also refined random forest model hyperparameters utilizing a grid search but still decision tree was overall best for my analysis.
+        </p><br>
+        <h3>END TO END PROJECT DESCRIPTION</h3>
+        <p>
+          <ol>
+            <li>Data exploration, here i did finding of NaNs, Inf and other abnormal values, observing the data-types and categories of dataset.</li>
+            <li>Data cleaning/preprocessing, here i first changes names of some columns so that it is helpful in merging, further i managed categorical data-type by mapping them to int(ordinal) so that classifier do not make errors in them. Further i replaced all Inf values and NaN by the mean of dataset. Also i splitted multiple valued columns into single columns, basically i changed the dataset to 3NF.</li>
+            <li>
+              Exploratory data analysis, here i saw correlation between features and then selected some features for training, also i plotted some features just to see how their distribution is. Further from their got to know few statistics result like how many persons are male, how many are getting discount offers etc.
+            </li>
+            <li>
+              Finally i trained four models based on feature selection, and used hyperparameter tuning especially for random forest classifier. My criteria of model selection was validation F1-score, and i managed decision tree model with validation F1-score 81%. 
+            </li>
+          </ol>
+        </p><br><br>
+        <h3>QUESTIONS</h3><br>
+        <p>
+          <b>1. How an offer works in starbucks in general? What are the top offers provided by them?</b><br><br>
+          The ads/offers are sent through different forms(multiple channels), one can easily see from the plots and data analysis above that different populations have different ads/offers(at least differing by gender, age, income and/or since they are customers). Also top offers are completely subjective to particular population, let's again see the scenario since most people are within age group of [40-70], so we cannot sell only fast food to them, we need to be more careful about rolling out combo packages. One idea is we can include soup, vegetable salad etc like stuffs with traditional starbucks food to attract them. So for them top offers will be this combo. Gender might be factor for giving adds and offers. We can see that ratio between male and female is approximately 3:2, e.g. let's say female like deserts so this might be top feature for them.<br><br><br>
+          <b>2. What is change in market of starbucks when some offer is there?</b><br><br>
+          Market is highely depends uponn offers as we have already seen this in Exploratory data analysis, we have seen that different offer_id have different probability of being viewed, this kinda makes sense because this might depends on user interest, interesting offers attracts more customers(and users view only those).<br><br><br>
+          <b>3. How user action parameters(say viewed, offer recieved, transaction done, cancelled, completed) are related to demographic attributes or other attributes that company floats?</b><br><br>
+          I was thinking that there will be no relation between these, i.e., customers will not be influenced by these attributes but after analysing the plots and model i realized that there was some gap in my thought, different offer were given to different section of people depending upon locations, gender etc, and change in market hugely depend upon it. Offer recieved for some region might be different from others similarly offer viewed depends upon this and various other factors. The outcome of these is certainly transaction done/completed or cancelled.<br><br><br>
+        </p>
+        <h3>POTENTIAL IMPROVEMENTS</h3><br>
+        <p>
+          1. &nbsp;One can think of using multiple features or higher order features for better prediction F1-score.<br>
+          2. &nbsp;Data cleaning could be performed more aggresively, e.g., handling missing value can be done using some heuristics made after doing deep analysis of dataset.<br>
+          3. &nbsp;I didn't used all the features because i didn't find any use of them, maybe these features could give hidden insights, e.g., I could not think of additional features using the time data.<br>
+          4. &nbsp;Choice of model, one might think more complex Neural nets with suitable dropouts, Boosted Trees, Naive Bayes model or may try SVM. Hyperparameters and number of epochs specially in neural networks could be increased.<br>
+        </p>
+      </div>
+    </div>
+  </section>
+
+
+
+<footer class="py-5" style="background-color: rgb(167,176,184);">
+    <div class="container"><div class="footer-class small text-center text-muted">Copyright © 2020-2021 - Dheeraj Kumar Pant.</div></div>
+</footer>
+
+  <!-- Bootstrap core JS-->
+  <script src="jquery-3.5.1.slim.min.js" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <!-- Core theme JS-->
+  <script src="scripts.js"></script>
+
+</body>
+
+</html>
